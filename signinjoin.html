@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top " data-spy="affix" data-offset="650">
+<div class="container">
+<div class="navbar-header ">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu"aria-expanded="false">
+<span class="sr-only">Toggle navigation </span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+<a href="asoebi.html" class="navbar-brand">ASO EBI</a>	
+
+</div>
+<div class="collapse navbar-collapse" id="collapsemenu">
+	<ul class="nav navbar-nav navbar-left"> 
+			<li><a class="li" href="men.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span> Men <img src="./images/fila.svg" height="22px"></a> 
+
+			<ul class="dropdown-menu">
+				<li><a href="#">shoes</a> </li>
+				<li><a href="#">cloths</a> </li>
+			</ul>
+			</li>
+
+			<li>
+
+			<a class="li " href="women.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> Women <img src="./images/women.svg" height="22px"></a> 
+
+
+			<ul class="dropdown-menu">
+				<li><a href="#">shoes</a> </li>
+				<li><a href="#">cloths</a> </li>
+			</ul></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+
+			<li>
+			<a class="li" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span> Account<span class=" glyphicon glyphicon-user"></span>
+			</a> 
+			<ul class="dropdown-menu">
+				<li><a href="#">Sign In</a> </li>
+				<li><a href="#"> Join</a> </li>
+			</ul>
+			</li>
+
+			<li>
+			<a  class="li " href="cart.html">Cart <span class="glyphicon
+			glyphicon-shopping-cart"></span></a> 
+			</li>
+			</ul>
+		</ul>
+	</div>
+</div>
+</nav>
+
+
+
+
+
+
+<div class="container">
+    	<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-6">
+								<a href="#" class="active" id="login-form-link">LOGIN</a>
+							</div>
+							<div class="col-xs-6">
+								<a href="#" id="register-form-link">REGISTER</a>
+							</div>
+						</div>
+						<hr>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<form id="login-form" action="http://phpoll.com/login/process" method="post" role="form" style="display: block;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group text-center">
+										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+										<label for="remember"> Remember Me</label>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="text-center">
+													<a href="http://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="register-form" action="http://phpoll.com/register/process" method="post" role="form" style="display: none;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<footer class="footer navbar-fixed-bottom">
+	<div class="container">
+
+	<div class="row">
+		<div class="col-sm-2 copy">
+			<h6>Copyright &copy; 2016 Asoebi </h6>
+		</div>
+	 <div class="col-sm-4 foothead">
+	 	<h6>ABOUT US</h6>
+	 	<p> Aso ebi was created for the sole purpose of making life easier for couples organizing wedding events and want to get their desired materials to their friends and family hassle free and as quick as possible.We have a unique system wehre the customer get package deals for delivery to their friends and family on time before their evvets</p>
+	 </div>
+		<div class="col-sm-2 foothead">
+			<h6>NAVIGATION</h6>
+			<ul class="list-unstyled">
+			<l1><a href="#">Home</a></l1>
+			</br>
+		    <l1><a href="#">men</a></l1>
+		    </br>
+		    <l1><a href="#">women</a></l1>
+		    </br>
+		    <l1><a href="#">Account</a></l1>
+			</ul>
+		</div>
+		<div class="col-sm-2 foothead">
+			<h6>SOCIAL</h6>
+			
+			<a href="#"><img src="./images/Facebook.svg" width="25px"></a>
+			<span></span>
+		    <a href="#"><img src="./images/Twitter.svg" width="25px"></a>
+		    <span></span>
+		    <a href="#"><img src="./images/Instagram.svg" width="25px"></a>
+		    <span></span>
+		    <a href="#"><img src="./images/Snapchat.svg" width="25px"></a>
+		
+		</div>
+
+		<div class="col-sm-2 foothead">
+			<h6>KEEP IN TOUCH</h6>
+			<ul class="list-unstyled" >
+			<l1><span class="glyphicon glyphicon-envelope"> Itskolade@gmail.com</span></l1>
+			</br>
+		    <l1><span class="glyphicon glyphicon-earphone"> 639-471-3565</span></l1>
+		    </br>
+		    <l1><span class="glyphicon glyphicon-question-sign"> Faq</span></l1>
+		   <l1><span class=""></span></l1>
+			</ul>
+		</div>
+
+
+	</div>
+		
+	</div>
+</footer>
+
+
+
+
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
